@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Internal CSS</title>
+        <style>
+          body {
+  background-color:#FFE4B5;
+}
+            .main {
+                text-align:left;
+            }
+            .task {
+                font-family:"Times New Roman";
+                color:#A0522D;
+                font-size:50px;
+                font-weight:bold;
+            }
+            .subhead {
+                font-style:bold;
+                font-size:20px;
+            }
+        </style>
+</head>
+
+<body>
+    <nav>
+      <div class = "main">
+          <div class ="task">Tap-Search</div>
+
+          <div class ="subhead">
+
+          </div>
+      </div>
+    </nav>
+
+    <section class="container">
+      <br>
+<br>
+<form  action="/results" method="post">
+        <input type="text" name="search_word" placeholder="Search..." required>
+        <div style='padding-left:30px; padding: 5px'>
+            <input type="submit" value="Search">
+        </div>
+    </form>
+    </section>
+    Search a Word
+</body>
+
+</html>
